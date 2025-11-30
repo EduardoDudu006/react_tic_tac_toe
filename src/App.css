@@ -1,0 +1,66 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 60px; /* Espaço para o footer fixo */
+}
+
+.board-row {
+    display: flex;
+    justify-content: center; /* Centraliza as linhas do tabuleiro */
+}
+
+/* Aumenta o tamanho dos quadrados */
+.square {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 48px; /* Fonte maior para X e O */
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.game-info ol {
+    list-style: none;
+    padding: 0;
+}
+
+.game-info li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para o footer fixo */
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Altura do footer */
+    line-height: 60px; /* Centraliza o texto verticalmente */
+}
